@@ -1,0 +1,1 @@
+{"Reports":{"sha256:4cfc64aa1b1c16ff8799fc4b020d47465fb883d94f4d38ca24e1d54e8bbb6349":{"registry":"docker.io","account":"library","repo":"clearlinux","digest":"sha256:4cfc64aa1b1c16ff8799fc4b020d47465fb883d94f4d38ca24e1d54e8bbb6349","scannedAt":"1640025455","scanner":"snyk","highlights":{"CVE-2021-44228":"not vulnerable","CVE-2021-45046":"not vulnerable"}}}}

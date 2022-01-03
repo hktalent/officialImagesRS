@@ -1,0 +1,579 @@
+
+Testing adminer:4.7.7...
+
+✗ Low severity vulnerability found in postgresql/libpq
+  Description: CVE-2021-3677
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1566443
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.8-r0
+
+✗ Low severity vulnerability found in postgresql/libpq
+  Description: CVE-2021-23222
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1920898
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.9-r0
+
+✗ Low severity vulnerability found in postgresql/libpq
+  Description: CVE-2021-23214
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1920902
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.9-r0
+
+✗ Low severity vulnerability found in openssl/libcrypto1.1
+  Description: Inadequate Encryption Strength
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1075736
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1j-r0
+
+✗ Low severity vulnerability found in curl/libcurl
+  Description: Authentication Bypass
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1246354
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.76.0-r0
+
+✗ Low severity vulnerability found in curl/libcurl
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1246355
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.74.0-r0
+
+✗ Low severity vulnerability found in curl/libcurl
+  Description: Missing Initialization of Resource
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1310974
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.77.0-r0
+
+✗ Low severity vulnerability found in curl/libcurl
+  Description: Use of Incorrectly-Resolved Name or Reference
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1533460
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.78.0-r0
+
+✗ Medium severity vulnerability found in tar/tar
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-TAR-1244062
+  Introduced through: tar/tar@1.32-r1
+  From: tar/tar@1.32-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.32-r2
+
+✗ Medium severity vulnerability found in sqlite/sqlite-libs
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-SQLITE-1300270
+  Introduced through: sqlite/sqlite-libs@3.32.1-r0, .phpexts-rundeps@20201201.074714
+  From: sqlite/sqlite-libs@3.32.1-r0
+  From: .phpexts-rundeps@20201201.074714 > sqlite/sqlite-libs@3.32.1-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 3.32.1-r1
+
+✗ Medium severity vulnerability found in sqlite/sqlite-libs
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-SQLITE-1300271
+  Introduced through: sqlite/sqlite-libs@3.32.1-r0, .phpexts-rundeps@20201201.074714
+  From: sqlite/sqlite-libs@3.32.1-r0
+  From: .phpexts-rundeps@20201201.074714 > sqlite/sqlite-libs@3.32.1-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 3.32.1-r1
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1078734
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.6-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1293075
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.7-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1293078
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.7-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Incorrect Authorization
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1297994
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.6-r0
+
+✗ Medium severity vulnerability found in openssl/libcrypto1.1
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1050745
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1i-r0
+
+✗ Medium severity vulnerability found in openssl/libcrypto1.1
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1075734
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1j-r0
+
+✗ Medium severity vulnerability found in openssl/libcrypto1.1
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1089237
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1k-r0
+
+✗ Medium severity vulnerability found in musl/musl-utils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-MUSL-1042762
+  Introduced through: musl/musl-utils@1.1.24-r9, libc-dev/libc-utils@0.7.2-r3
+  From: musl/musl-utils@1.1.24-r9
+  From: libc-dev/libc-utils@0.7.2-r3 > musl/musl-utils@1.1.24-r9
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.24-r10
+
+✗ Medium severity vulnerability found in libxml2/libxml2
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-LIBXML2-1300260
+  Introduced through: libxml2/libxml2@2.9.10-r5
+  From: libxml2/libxml2@2.9.10-r5
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.9.10-r6
+
+✗ Medium severity vulnerability found in libxml2/libxml2
+  Description: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-LIBXML2-1325532
+  Introduced through: libxml2/libxml2@2.9.10-r5
+  From: libxml2/libxml2@2.9.10-r5
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.9.12-r0
+
+✗ Medium severity vulnerability found in curl/libcurl
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1246353
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.76.0-r0
+
+✗ Medium severity vulnerability found in curl/libcurl
+  Description: Insufficiently Protected Credentials
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1533449
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.78.0-r0
+
+✗ Medium severity vulnerability found in curl/libcurl
+  Description: Improper Validation of Integrity Check Value
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1533450
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.78.0-r0
+
+✗ Medium severity vulnerability found in curl/libcurl
+  Description: Use of Uninitialized Resource
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1533459
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.78.0-r0
+
+✗ Medium severity vulnerability found in curl/libcurl
+  Description: Insufficient Verification of Data Authenticity
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1585245
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.79.0-r0
+
+✗ Medium severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42374
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920717
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-POSTGRESQL-1293076
+  Introduced through: postgresql/libpq@12.5-r0, .phpexts-rundeps@20201201.074714
+  From: postgresql/libpq@12.5-r0
+  From: .phpexts-rundeps@20201201.074714 > postgresql/libpq@12.5-r0
+  Image layer: '/bin/sh -c set -x &&	apk add --no-cache --virtual .build-deps 	postgresql-dev 	sqlite-dev 	unixodbc-dev 	freetds-dev &&	docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr &&	docker-php-ext-install 	pdo_mysql 	pdo_pgsql 	pdo_sqlite 	pdo_odbc 	pdo_dblib &&	runDeps="$( 		scanelf --needed --nobanner --format '%n#p' --recursive /usr/local/lib/php/extensions 			| tr ',' '\n' 			| sort -u 			| awk 'system("[ -e /usr/local/lib/" $1 " ]") == 0 { next } { print "so:" $1 }' 	)" &&	apk add --virtual .phpexts-rundeps $runDeps &&	apk del .build-deps'
+  Fixed in: 12.7-r0
+
+✗ High severity vulnerability found in openssl/libcrypto1.1
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1075735
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1j-r0
+
+✗ High severity vulnerability found in openssl/libcrypto1.1
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1089238
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1k-r0
+
+✗ High severity vulnerability found in openssl/libcrypto1.1
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1569450
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1l-r0
+
+✗ High severity vulnerability found in openldap/libldap
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENLDAP-1050345
+  Introduced through: openldap/libldap@2.4.50-r0, postgresql/libpq@12.5-r0
+  From: openldap/libldap@2.4.50-r0
+  From: postgresql/libpq@12.5-r0 > openldap/libldap@2.4.50-r0
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.4.50-r1
+
+✗ High severity vulnerability found in openldap/libldap
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENLDAP-1050346
+  Introduced through: openldap/libldap@2.4.50-r0, postgresql/libpq@12.5-r0
+  From: openldap/libldap@2.4.50-r0
+  From: postgresql/libpq@12.5-r0 > openldap/libldap@2.4.50-r0
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.4.50-r1
+
+✗ High severity vulnerability found in openldap/libldap
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENLDAP-1050347
+  Introduced through: openldap/libldap@2.4.50-r0, postgresql/libpq@12.5-r0
+  From: openldap/libldap@2.4.50-r0
+  From: postgresql/libpq@12.5-r0 > openldap/libldap@2.4.50-r0
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.4.50-r1
+
+✗ High severity vulnerability found in openldap/libldap
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENLDAP-1079019
+  Introduced through: openldap/libldap@2.4.50-r0, postgresql/libpq@12.5-r0
+  From: openldap/libldap@2.4.50-r0
+  From: postgresql/libpq@12.5-r0 > openldap/libldap@2.4.50-r0
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.4.50-r2
+
+✗ High severity vulnerability found in ncurses/ncurses-libs
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-NCURSES-2313024
+  Introduced through: ncurses/ncurses-libs@6.2_p20200523-r0, readline/readline@8.0.4-r0, libedit/libedit@20191231.3.1-r0, ncurses/ncurses-terminfo-base@6.2_p20200523-r0
+  From: ncurses/ncurses-libs@6.2_p20200523-r0
+  From: readline/readline@8.0.4-r0 > ncurses/ncurses-libs@6.2_p20200523-r0
+  From: libedit/libedit@20191231.3.1-r0 > ncurses/ncurses-libs@6.2_p20200523-r0
+  and 2 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 6.2_p20200523-r1
+
+✗ High severity vulnerability found in libxml2/libxml2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-LIBXML2-1300258
+  Introduced through: libxml2/libxml2@2.9.10-r5
+  From: libxml2/libxml2@2.9.10-r5
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.9.10-r6
+
+✗ High severity vulnerability found in libxml2/libxml2
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-LIBXML2-1300259
+  Introduced through: libxml2/libxml2@2.9.10-r5
+  From: libxml2/libxml2@2.9.10-r5
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.9.10-r6
+
+✗ High severity vulnerability found in curl/libcurl
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1050049
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.69.1-r2
+
+✗ High severity vulnerability found in curl/libcurl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1050731
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.69.1-r3
+
+✗ High severity vulnerability found in curl/libcurl
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1050732
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.69.1-r3
+
+✗ High severity vulnerability found in curl/libcurl
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1310975
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.77.0-r0
+
+✗ High severity vulnerability found in curl/libcurl
+  Description: Cleartext Transmission of Sensitive Information
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1585244
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.79.0-r0
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: Improper Handling of Exceptional Conditions
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1089799
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.32.1-r4
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42381
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920710
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42379
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920711
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42380
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920712
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42384
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920729
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42385
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920730
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42378
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920731
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42386
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920739
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42382
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920754
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in busybox/busybox
+  Description: CVE-2021-42383
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-BUSYBOX-1920758
+  Introduced through: busybox/busybox@1.31.1-r19, alpine-baselayout/alpine-baselayout@3.2.0-r7, ca-certificates/ca-certificates@20191127-r4, busybox/ssl_client@1.31.1-r19
+  From: busybox/busybox@1.31.1-r19
+  From: alpine-baselayout/alpine-baselayout@3.2.0-r7 > busybox/busybox@1.31.1-r19
+  From: ca-certificates/ca-certificates@20191127-r4 > busybox/busybox@1.31.1-r19
+  and 1 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.31.1-r21
+
+✗ High severity vulnerability found in apk-tools/apk-tools
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-APKTOOLS-1246338
+  Introduced through: apk-tools/apk-tools@2.10.5-r1
+  From: apk-tools/apk-tools@2.10.5-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.10.6-r0
+
+✗ Critical severity vulnerability found in openssl/libcrypto1.1
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-OPENSSL-1569452
+  Introduced through: openssl/libcrypto1.1@1.1.1g-r0, freetds/freetds@1.1.40-r0, postgresql/libpq@12.5-r0, openssl/libssl1.1@1.1.1g-r0, apk-tools/apk-tools@2.10.5-r1, libtls-standalone/libtls-standalone@2.9.1-r1, ca-certificates/ca-certificates@20191127-r4, curl/libcurl@7.69.1-r1, openldap/libldap@2.4.50-r0, openssl/openssl@1.1.1g-r0
+  From: openssl/libcrypto1.1@1.1.1g-r0
+  From: freetds/freetds@1.1.40-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  From: postgresql/libpq@12.5-r0 > openssl/libcrypto1.1@1.1.1g-r0
+  and 17 more...
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 1.1.1l-r0
+
+✗ Critical severity vulnerability found in curl/libcurl
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-CURL-1585256
+  Introduced through: curl/libcurl@7.69.1-r1, curl/curl@7.69.1-r1
+  From: curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1 > curl/libcurl@7.69.1-r1
+  From: curl/curl@7.69.1-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 7.79.0-r0
+
+✗ Critical severity vulnerability found in apk-tools/apk-tools
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE312-APKTOOLS-1533753
+  Introduced through: apk-tools/apk-tools@2.10.5-r1
+  From: apk-tools/apk-tools@2.10.5-r1
+  Image layer: Introduced by your base image (php:7.4-alpine)
+  Fixed in: 2.10.7-r0
+
+
+
+Organization:      hacker.7.2018
+Package manager:   apk
+Project name:      docker-image|adminer
+Docker image:      adminer:4.7.7
+Platform:          linux/amd64
+Base image:        php:7.4-alpine
+Licenses:          enabled
+
+Tested 40 dependencies for known issues, found 57 issues.
+
+Your base image is out of date
+1) Pull the latest version of your base image by running 'docker pull php:7.4-alpine'
+2) Rebuild your local image

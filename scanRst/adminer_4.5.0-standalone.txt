@@ -1,0 +1,346 @@
+
+Testing adminer:4.5.0-standalone...
+
+✗ Low severity vulnerability found in ncurses/ncurses-libs
+  Description: CVE-2018-10754
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-NCURSES-367845
+  Introduced through: ncurses/ncurses-libs@6.0_p20170930-r0, libedit/libedit@20170329.3.1-r2, ncurses/ncurses-terminfo@6.0_p20170930-r0, ncurses/ncurses-terminfo-base@6.0_p20170930-r0
+  From: ncurses/ncurses-libs@6.0_p20170930-r0
+  From: libedit/libedit@20170329.3.1-r2 > ncurses/ncurses-libs@6.0_p20170930-r0
+  From: ncurses/ncurses-terminfo@6.0_p20170930-r0
+  and 4 more...
+  Fixed in: 6.0_p20171125-r1
+
+✗ Medium severity vulnerability found in tar/tar
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-TAR-343901
+  Introduced through: tar/tar@1.29-r1, .persistent-deps@0
+  From: tar/tar@1.29-r1
+  From: .persistent-deps@0 > tar/tar@1.29-r1
+  Fixed in: 1.31-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-1019702
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.13-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Improper Access Control
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-1019703
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.13-r0
+
+✗ Medium severity vulnerability found in libxml2/libxml2
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBXML2-429395
+  Introduced through: libxml2/libxml2@2.9.4-r4, .php-rundeps@0
+  From: libxml2/libxml2@2.9.4-r4
+  From: .php-rundeps@0 > libxml2/libxml2@2.9.4-r4
+  Fixed in: 2.9.8-r1
+
+✗ Medium severity vulnerability found in libxml2/libxml2
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBXML2-429767
+  Introduced through: libxml2/libxml2@2.9.4-r4, .php-rundeps@0
+  From: libxml2/libxml2@2.9.4-r4
+  From: .php-rundeps@0 > libxml2/libxml2@2.9.4-r4
+  Fixed in: 2.9.8-r1
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-338401
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.10-r0
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-338406
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.8-r0
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: Incorrect Authorization
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-338420
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.10-r0
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-338453
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.7-r0
+
+✗ High severity vulnerability found in ncurses/ncurses-libs
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-NCURSES-367837
+  Introduced through: ncurses/ncurses-libs@6.0_p20170930-r0, libedit/libedit@20170329.3.1-r2, ncurses/ncurses-terminfo@6.0_p20170930-r0, ncurses/ncurses-terminfo-base@6.0_p20170930-r0
+  From: ncurses/ncurses-libs@6.0_p20170930-r0
+  From: libedit/libedit@20170329.3.1-r2 > ncurses/ncurses-libs@6.0_p20170930-r0
+  From: ncurses/ncurses-terminfo@6.0_p20170930-r0
+  and 4 more...
+  Fixed in: 6.0_p20171125-r0
+
+✗ High severity vulnerability found in libxml2/libxml2
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBXML2-429567
+  Introduced through: libxml2/libxml2@2.9.4-r4, .php-rundeps@0
+  From: libxml2/libxml2@2.9.4-r4
+  From: .php-rundeps@0 > libxml2/libxml2@2.9.4-r4
+  Fixed in: 2.9.8-r1
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467470
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467472
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467474
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467476
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-343522
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r2
+
+✗ High severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-343563
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r2
+
+✗ High severity vulnerability found in curl/curl
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358704
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.59.0-r0
+
+✗ Critical severity vulnerability found in postgresql/libpq
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-POSTGRESQL-338448
+  Introduced through: postgresql/libpq@9.6.6-r0
+  From: postgresql/libpq@9.6.6-r0
+  Fixed in: 9.6.9-r0
+
+✗ Critical severity vulnerability found in libxml2/libxml2
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBXML2-429721
+  Introduced through: libxml2/libxml2@2.9.4-r4, .php-rundeps@0
+  From: libxml2/libxml2@2.9.4-r4
+  From: .php-rundeps@0 > libxml2/libxml2@2.9.4-r4
+  Fixed in: 2.9.5-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467464
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467466
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467468
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467478
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-LIBSSH2-467480
+  Introduced through: libssh2/libssh2@1.8.0-r1, curl/libcurl@7.57.0-r0
+  From: libssh2/libssh2@1.8.0-r1
+  From: curl/libcurl@7.57.0-r0 > libssh2/libssh2@1.8.0-r1
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-343776
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r2
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358497
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r1
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358539
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.58.0-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358549
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.59.0-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358562
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358693
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.60.0-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358718
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.60.0-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358765
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.0-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358775
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r1
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358859
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.59.0-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-358920
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.61.1-r1
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-ALPINE36-CURL-467634
+  Introduced through: curl/curl@7.57.0-r0, .persistent-deps@0, curl/libcurl@7.57.0-r0, .php-rundeps@0
+  From: curl/curl@7.57.0-r0
+  From: .persistent-deps@0 > curl/curl@7.57.0-r0
+  From: curl/libcurl@7.57.0-r0
+  and 2 more...
+  Fixed in: 7.58.0-r0
+
+
+
+Organization:      hacker.7.2018
+Package manager:   apk
+Project name:      docker-image|adminer
+Docker image:      adminer:4.5.0-standalone
+Platform:          linux/amd64
+Licenses:          enabled
+
+Tested 32 dependencies for known issues, found 38 issues.
+
+Alpine 3.6.2 is no longer supported by the Alpine maintainers. Vulnerability detection may be affected by a lack of security updates.

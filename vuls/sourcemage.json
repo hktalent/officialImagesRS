@@ -1,0 +1,1 @@
+{"Reports":{"sha256:07ffe294f2dab74a3a6828626f2aa3b4387a4b0c9deabfb46d1600c13fe54a7e":{"registry":"docker.io","account":"library","repo":"sourcemage","digest":"sha256:07ffe294f2dab74a3a6828626f2aa3b4387a4b0c9deabfb46d1600c13fe54a7e","scannedAt":"1639921757","scanner":"snyk","highlights":{"CVE-2021-44228":"not vulnerable","CVE-2021-45046":"not vulnerable"}}}}

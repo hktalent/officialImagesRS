@@ -1,0 +1,1073 @@
+{
+  "page_size": 22,
+  "next": "",
+  "previous": "",
+  "page": 1,
+  "count": 22,
+  "summaries": [
+    {
+      "id": "b4432ad2-70a6-4fa2-a046-e0394a2e68fd",
+      "name": "Azure Functions Java",
+      "slug": "microsoft-azure-functions-java",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-06-04T20:37:19.679308Z",
+      "updated_at": "2021-12-24T09:26:34.632821Z",
+      "short_description": "Azure Functions image for java",
+      "source": "publisher",
+      "popularity": 8792749,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://mcrflowprodcentralus.blob.core.windows.net/defaultlogo/Microsoft_logo.svg?sp=r&st=2019-01-19T00:10:26Z&se=2033-11-04T07:10:26Z&spr=https&sv=2018-03-28&sig=dRn%2BJsqcKwsVdAMcdkzPAbydqSC%2BzBS9BwJUI9AflR4%3D&sr=b",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "20029392-16cf-4d09-950c-92ffd9d61482",
+      "name": "Playwright Java",
+      "slug": "microsoft-playwright-java",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2021-03-23T20:14:51.302267Z",
+      "updated_at": "2021-12-24T09:26:39.434767Z",
+      "short_description": "Docker image to run Playwright Java scripts",
+      "source": "publisher",
+      "popularity": 109018,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "15f763ec-de8e-45de-a8eb-c561238415d0",
+      "name": "Java SE",
+      "slug": "microsoft-java-se",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-05-01T02:22:49.795818Z",
+      "updated_at": "2021-05-22T00:14:44.039891Z",
+      "short_description": "Product family for Azul Zulu for Azure - Enterprise Edition",
+      "source": "publisher",
+      "popularity": 4267118,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://javaonazureicon.blob.core.windows.net/icon/JOA_White.svg",
+        "small@2x": ""
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "ff4eb64b-1dea-4d0b-9746-7346ddf9a843",
+      "name": "Oracle Java 8 SE (Server JRE)",
+      "slug": "oracle-serverjre-8",
+      "type": "image",
+      "publisher": {
+        "id": "376743ad-9a63-4211-b33a-8b47c0408bf9",
+        "name": "Oracle"
+      },
+      "created_at": "2017-04-18T01:43:57.982474Z",
+      "updated_at": "2020-01-23T20:24:28.312732Z",
+      "short_description": "Oracle Java 8 SE (Server JRE)",
+      "source": "publisher",
+      "popularity": 0,
+      "categories": [
+        {
+          "name": "languages",
+          "label": "Programming Languages"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://d1q6f0aelx0por.cloudfront.net/product-logos/191bf3e6-f5e5-4430-abb9-2294aa3bb728-java-logo-512x512.png",
+        "small@2x": "https://d1q6f0aelx0por.cloudfront.net/product-logos/191bf3e6-f5e5-4430-abb9-2294aa3bb728-java-logo-512x512.png"
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "ea6d7ccb-a233-48d7-a437-abf906733f34",
+      "name": "Zulu for Azure JDK with Apache Maven",
+      "slug": "microsoft-java-maven",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-05-01T02:22:52.092212Z",
+      "updated_at": "2021-12-24T09:26:38.618631Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 142520,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "dcf49544-eec6-4703-a949-0726ac047ff6",
+      "name": "Oracle JDK",
+      "slug": "oracle-jdk",
+      "type": "image",
+      "publisher": {
+        "id": "376743ad-9a63-4211-b33a-8b47c0408bf9",
+        "name": "Oracle"
+      },
+      "created_at": "2020-01-28T03:49:20.524213Z",
+      "updated_at": "2020-01-28T03:49:20.524213Z",
+      "short_description": "Oracle Java SE Development Kit (JDK)",
+      "source": "publisher",
+      "popularity": 0,
+      "categories": [
+        {
+          "name": "languages",
+          "label": "Programming Languages"
+        },
+        {
+          "name": "tools",
+          "label": "DevOps Tools"
+        },
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://d1q6f0aelx0por.cloudfront.net/product-logos/8fae15ee-0a15-42b5-b408-afe4b3f65f2d-java-logo-512x512.png",
+        "small@2x": "https://d1q6f0aelx0por.cloudfront.net/product-logos/8fae15ee-0a15-42b5-b408-afe4b3f65f2d-java-logo-512x512.png"
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "7f7f7ce8-b170-4708-8df4-615a3dee4344",
+      "name": "Zulu for Azure Headless JRE with Apache Tomcat",
+      "slug": "microsoft-java-tomcat",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-12-06T20:22:34.889313Z",
+      "updated_at": "2021-12-24T09:26:38.595694Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 197457,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "41d3e59c-23d8-4295-962c-ebe30b0f46ff",
+      "name": "Zulu for Azure JDK",
+      "slug": "microsoft-java-jdk",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-04-28T18:16:00.084247Z",
+      "updated_at": "2021-12-24T10:01:07.785926Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 0,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "e88bdf11-a149-4b8a-a96e-9a2b915de878",
+      "name": "AppDynamics",
+      "slug": "appdynamics",
+      "type": "image",
+      "publisher": {
+        "id": "6d951042-6e98-478d-9172-b8ec059b680d",
+        "name": "AppDynamics (Cisco)"
+      },
+      "created_at": "2017-11-06T23:28:55.402277Z",
+      "updated_at": "2019-12-16T18:53:00.81417Z",
+      "short_description": "AppDynamics APM provides real-time, end-to-end management for the most complex and distributed applications. ",
+      "source": "publisher",
+      "popularity": 0,
+      "categories": [
+        {
+          "name": "monitoring",
+          "label": "Monitoring"
+        },
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        },
+        {
+          "name": "tools",
+          "label": "DevOps Tools"
+        },
+        {
+          "name": "analytics",
+          "label": "Analytics"
+        },
+        {
+          "name": "application_framework",
+          "label": "Application Frameworks"
+        },
+        {
+          "name": "application_services",
+          "label": "Application Services"
+        },
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://d1q6f0aelx0por.cloudfront.net/product-logos/e3ecf53e-5c26-453b-9a31-7909f44b7870-appdynamics-logo-stacked-rgb-dynamicultra.png",
+        "small@2x": "https://d1q6f0aelx0por.cloudfront.net/product-logos/e3ecf53e-5c26-453b-9a31-7909f44b7870-appdynamics-logo-stacked-rgb-dynamicultra.png"
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "de70368c-e367-436d-9d5f-7af2a6979725",
+      "name": "Zulu for Azure JRE",
+      "slug": "microsoft-java-jre",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-04-25T20:19:43.77706Z",
+      "updated_at": "2021-12-24T09:26:38.678796Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 1997660,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "61370a48-3361-4f97-9b11-ebe3a4f22141",
+      "name": "Zulu for Azure Headless JRE",
+      "slug": "microsoft-java-jre-headless",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-04-25T20:30:29.061555Z",
+      "updated_at": "2021-12-24T10:02:48.449622Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 0,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "f502e142-c157-44f5-ae88-3cfd361ceadc",
+      "name": "java",
+      "slug": "java",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2017-10-05T05:10:35.675141Z",
+      "updated_at": "2017-03-23T17:58:27.550146Z",
+      "short_description": "DEPRECATED; use \"openjdk\" (or other JDK implementations) instead",
+      "source": "library",
+      "popularity": 137380162,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        },
+        {
+          "name": "languages",
+          "label": "Programming Languages"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": null,
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "3d5f71ad-2cc0-467f-ab6a-351e7adf404e",
+      "name": "tomcat",
+      "slug": "tomcat",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-15T21:32:04.054684Z",
+      "updated_at": "2021-12-23T06:38:17.54859Z",
+      "short_description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies",
+      "source": "library",
+      "popularity": 497565242,
+      "categories": [
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-tomcat-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "afc9cbe9-8325-4609-ad48-cc891f1e0002",
+      "name": "tomee",
+      "slug": "tomee",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-01T01:57:31.639702Z",
+      "updated_at": "2021-12-22T17:14:50.800043Z",
+      "short_description": "Apache TomEE is an all-Apache Java EE certified stack where Apache Tomcat is top dog.",
+      "source": "library",
+      "popularity": 15641850,
+      "categories": [
+        {
+          "name": "application_framework",
+          "label": "Application Frameworks"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-tomee-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "f9955455-0030-44c9-b88c-87b5a96f7bf9",
+      "name": "amazoncorretto",
+      "slug": "amazoncorretto",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2019-01-09T06:11:47.158342Z",
+      "updated_at": "2021-12-11T00:32:40.796933Z",
+      "short_description": "Corretto is a no-cost, production-ready distribution of the Open Java Development Kit (OpenJDK).",
+      "source": "library",
+      "popularity": 26162961,
+      "categories": [],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-amazoncorretto-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "e6658267-cc55-421e-b5be-5e69460fb0d1",
+      "name": "node",
+      "slug": "node",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-17T17:45:46.898676Z",
+      "updated_at": "2021-12-21T19:47:07.295443Z",
+      "short_description": "Node.js is a JavaScript-based platform for server-side and networking applications.",
+      "source": "library",
+      "popularity": 3331882189,
+      "categories": [
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-node-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "c78955be-8694-44fc-a350-c4f08ae016cd",
+      "name": "groovy",
+      "slug": "groovy",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2017-04-16T17:55:45.535513Z",
+      "updated_at": "2021-12-02T08:00:00.262407Z",
+      "short_description": "Apache Groovy is a multi-faceted language for the Java platform.",
+      "source": "library",
+      "popularity": 68227902,
+      "categories": [
+        {
+          "name": "languages",
+          "label": "Programming Languages"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-groovy-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "d88c12a5-0ca7-4358-aef0-c759b0e5290a",
+      "name": "jetty",
+      "slug": "jetty",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-01T23:28:35.731183Z",
+      "updated_at": "2021-12-23T04:07:20.144702Z",
+      "short_description": "Jetty provides a Web server and javax.servlet container.",
+      "source": "library",
+      "popularity": 33605223,
+      "categories": [
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-jetty-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "78424556-6847-4348-9168-721eee59369a",
+      "name": "openjdk",
+      "slug": "openjdk",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2017-01-24T22:25:00.405444Z",
+      "updated_at": "2021-12-23T04:00:28.818846Z",
+      "short_description": "OpenJDK is an open-source implementation of the Java Platform, Standard Edition",
+      "source": "library",
+      "popularity": 1516880406,
+      "categories": [
+        {
+          "name": "languages",
+          "label": "Programming Languages"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "windows",
+          "label": "Windows"
+        },
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-openjdk-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "57aa97f1-9868-4936-906c-b83d78cfaf4f",
+      "name": "ghost",
+      "slug": "ghost",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-17T17:40:52.086415Z",
+      "updated_at": "2021-12-22T22:17:05.954228Z",
+      "short_description": "Ghost is a free and open source blogging platform written in JavaScript",
+      "source": "library",
+      "popularity": 313915549,
+      "categories": [
+        {
+          "name": "application_services",
+          "label": "Application Services"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-ghost-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "263ad544-d7c7-4892-8244-fe78b6231265",
+      "name": "couchdb",
+      "slug": "couchdb",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-01T23:30:02.250575Z",
+      "updated_at": "2021-12-21T11:04:46.819544Z",
+      "short_description": "CouchDB is a database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.",
+      "source": "library",
+      "popularity": 161522278,
+      "categories": [
+        {
+          "name": "database",
+          "label": "Databases"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-couchdb-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "b3cf61b2-0c8d-4b09-be77-09f9cc4cd557",
+      "name": "ibmjava",
+      "slug": "ibmjava",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-11-14T17:21:37.47309Z",
+      "updated_at": "2021-11-29T21:26:29.90049Z",
+      "short_description": "Official IBM® SDK, Java™ Technology Edition Docker Image.",
+      "source": "invalid",
+      "popularity": 11826989,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        }
+      ],
+      "logo_url": {},
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    }
+  ]
+}

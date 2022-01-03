@@ -1,0 +1,322 @@
+
+Testing adminer:4.6...
+
+✗ Medium severity vulnerability found in tar/tar
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-TAR-344502
+  Introduced through: tar/tar@1.30-r0, .persistent-deps@0
+  From: tar/tar@1.30-r0
+  From: .persistent-deps@0 > tar/tar@1.30-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.31-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Improper Access Control
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-POSTGRESQL-452836
+  Introduced through: postgresql/libpq@10.5-r0
+  From: postgresql/libpq@10.5-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 10.8-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-POSTGRESQL-453466
+  Introduced through: postgresql/libpq@10.5-r0
+  From: postgresql/libpq@10.5-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 10.8-r0
+
+✗ Medium severity vulnerability found in postgresql/libpq
+  Description: Missing Authorization
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-POSTGRESQL-598558
+  Introduced through: postgresql/libpq@10.5-r0
+  From: postgresql/libpq@10.5-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 10.12-r0
+
+✗ Medium severity vulnerability found in openldap/libldap
+  Description: Improper Authentication
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-OPENLDAP-492139
+  Introduced through: openldap/libldap@2.4.46-r0, postgresql/libpq@10.5-r0
+  From: openldap/libldap@2.4.46-r0
+  From: postgresql/libpq@10.5-r0 > openldap/libldap@2.4.46-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 2.4.48-r0
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-POSTGRESQL-452429
+  Introduced through: postgresql/libpq@10.5-r0
+  From: postgresql/libpq@10.5-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 10.9-r0
+
+✗ High severity vulnerability found in postgresql/libpq
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-POSTGRESQL-507471
+  Introduced through: postgresql/libpq@10.5-r0
+  From: postgresql/libpq@10.5-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 10.10-r0
+
+✗ High severity vulnerability found in openldap/libldap
+  Description: Improper Authentication
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-OPENLDAP-504043
+  Introduced through: openldap/libldap@2.4.46-r0, postgresql/libpq@10.5-r0
+  From: openldap/libldap@2.4.46-r0
+  From: postgresql/libpq@10.5-r0 > openldap/libldap@2.4.46-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 2.4.48-r0
+
+✗ High severity vulnerability found in openldap/libldap
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-OPENLDAP-598560
+  Introduced through: openldap/libldap@2.4.46-r0, postgresql/libpq@10.5-r0
+  From: openldap/libldap@2.4.46-r0
+  From: postgresql/libpq@10.5-r0 > openldap/libldap@2.4.46-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 2.4.48-r1
+
+✗ High severity vulnerability found in nghttp2/nghttp2-libs
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-NGHTTP2-489839
+  Introduced through: nghttp2/nghttp2-libs@1.32.0-r0, curl/curl@7.61.1-r0
+  From: nghttp2/nghttp2-libs@1.32.0-r0
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > nghttp2/nghttp2-libs@1.32.0-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.39.2-r0
+
+✗ High severity vulnerability found in nghttp2/nghttp2-libs
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-NGHTTP2-497202
+  Introduced through: nghttp2/nghttp2-libs@1.32.0-r0, curl/curl@7.61.1-r0
+  From: nghttp2/nghttp2-libs@1.32.0-r0
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > nghttp2/nghttp2-libs@1.32.0-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.39.2-r0
+
+✗ High severity vulnerability found in libxml2/libxml2
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBXML2-598577
+  Introduced through: libxml2/libxml2@2.9.8-r1, .php-rundeps@0
+  From: libxml2/libxml2@2.9.8-r1
+  From: .php-rundeps@0 > libxml2/libxml2@2.9.8-r1
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 2.9.8-r2
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467493
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467494
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467495
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467496
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ High severity vulnerability found in libssh2/libssh2
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-474567
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.9.0-r1
+
+✗ High severity vulnerability found in cyrus-sasl/libsasl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CYRUSSASL-598629
+  Introduced through: cyrus-sasl/libsasl@2.1.26-r13, openldap/libldap@2.4.46-r0
+  From: cyrus-sasl/libsasl@2.1.26-r13
+  From: openldap/libldap@2.4.46-r0 > cyrus-sasl/libsasl@2.1.26-r13
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 2.1.26-r15
+
+✗ High severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-344449
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0, curl/libcurl@7.61.1-r1, .php-rundeps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  From: curl/libcurl@7.61.1-r1
+  and 2 more...
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r2
+
+✗ High severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-344624
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0, curl/libcurl@7.61.1-r1, .php-rundeps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  From: curl/libcurl@7.61.1-r1
+  and 2 more...
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r2
+
+✗ Critical severity vulnerability found in musl/musl-utils
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-MUSL-458276
+  Introduced through: musl/musl-utils@1.1.19-r10, libc-dev/libc-utils@0.7.1-r0, meta-common-packages@meta
+  From: musl/musl-utils@1.1.19-r10
+  From: libc-dev/libc-utils@0.7.1-r0 > musl/musl-utils@1.1.19-r10
+  From: meta-common-packages@meta > musl/musl@1.1.19-r10
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.1.19-r11
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467490
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467491
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467492
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467497
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in libssh2/libssh2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-LIBSSH2-467498
+  Introduced through: libssh2/libssh2@1.8.0-r3, curl/curl@7.61.1-r0
+  From: libssh2/libssh2@1.8.0-r3
+  From: curl/curl@7.61.1-r0 > curl/libcurl@7.61.1-r1 > libssh2/libssh2@1.8.0-r3
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 1.8.1-r0
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-344500
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0, curl/libcurl@7.61.1-r1, .php-rundeps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  From: curl/libcurl@7.61.1-r1
+  and 2 more...
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r2
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-358499
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r1
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-358777
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r1
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-358922
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r1
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-506671
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0, curl/libcurl@7.61.1-r1, .php-rundeps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  From: curl/libcurl@7.61.1-r1
+  and 2 more...
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r3
+
+✗ Critical severity vulnerability found in curl/curl
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-ALPINE38-CURL-514085
+  Introduced through: curl/curl@7.61.1-r0, .persistent-deps@0, curl/libcurl@7.61.1-r1, .php-rundeps@0
+  From: curl/curl@7.61.1-r0
+  From: .persistent-deps@0 > curl/curl@7.61.1-r0
+  From: curl/libcurl@7.61.1-r1
+  and 2 more...
+  Image layer: Introduced by your base image (php:7.2.12-cli-alpine3.8)
+  Fixed in: 7.61.1-r3
+
+
+
+Organization:      hacker.7.2018
+Package manager:   apk
+Project name:      docker-image|adminer
+Docker image:      adminer:4.6
+Platform:          linux/amd64
+Base image:        php:7.2.12-cli-alpine3.8
+Licenses:          enabled
+
+Tested 36 dependencies for known issues, found 32 issues.
+
+Base Image                Vulnerabilities  Severity
+php:7.2.12-cli-alpine3.8  23               12 critical, 10 high, 1 medium, 0 low
+
+Recommendations for base image upgrade:
+
+Alternative image types
+Base Image               Vulnerabilities  Severity
+php:7.4.27-zts           74               2 critical, 3 high, 1 medium, 68 low
+php:fpm-bullseye         74               2 critical, 3 high, 1 medium, 68 low
+php:7.3.33-fpm           74               2 critical, 3 high, 1 medium, 68 low
+php:8.0.14-zts-bullseye  74               2 critical, 3 high, 1 medium, 68 low
+
+Alpine 3.8.1 is no longer supported by the Alpine maintainers. Vulnerability detection may be affected by a lack of security updates.

@@ -1,0 +1,48 @@
+{
+  "page_size": 1,
+  "next": "",
+  "previous": "",
+  "page": 1,
+  "count": 1,
+  "summaries": [
+    {
+      "id": "d55eda09-d7f0-47b0-8780-3407f2f9142c",
+      "name": "jenkins",
+      "slug": "jenkins",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-14T22:28:05.702635Z",
+      "updated_at": "2018-07-17T16:47:45.266614Z",
+      "short_description": "DEPRECATED; use \"jenkins/jenkins:lts\" instead",
+      "source": "library",
+      "popularity": 147041435,
+      "categories": [
+        {
+          "name": "tools",
+          "label": "DevOps Tools"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/f5326186-8ae7-425c-a78d-7192dabf75be-jenkins.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    }
+  ]
+}

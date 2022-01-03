@@ -1,0 +1,58 @@
+{
+  "page_size": 1,
+  "next": "",
+  "previous": "https://hub.docker.com/api/content/v1/products/search/?type=image&page=1&page_size=623",
+  "page": 2,
+  "count": 624,
+  "summaries": [
+    {
+      "id": "b3cf61b2-0c8d-4b09-be77-09f9cc4cd557",
+      "name": "ibmjava",
+      "slug": "ibmjava",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-11-14T17:21:37.47309Z",
+      "updated_at": "2021-11-29T21:26:29.90049Z",
+      "short_description": "Official IBM® SDK, Java™ Technology Edition Docker Image.",
+      "source": "invalid",
+      "popularity": 11826989,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        }
+      ],
+      "logo_url": {},
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    }
+  ]
+}

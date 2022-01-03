@@ -1,0 +1,14 @@
+
+Testing adminer:4...
+
+Organization:      hacker.7.2018
+Package manager:   apk
+Project name:      docker-image|adminer
+Docker image:      adminer:4
+Platform:          linux/amd64
+Base image:        php:7.4.27-cli-alpine3.15
+Licenses:          enabled
+
+✔ Tested 37 dependencies for known issues, no vulnerable paths found.
+
+According to our scan, you are currently using the most secure version of the selected base image

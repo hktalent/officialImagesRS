@@ -1,0 +1,802 @@
+{
+  "page_size": 15,
+  "next": "",
+  "previous": "",
+  "page": 1,
+  "count": 15,
+  "summaries": [
+    {
+      "id": "ea6d7ccb-a233-48d7-a437-abf906733f34",
+      "name": "Zulu for Azure JDK with Apache Maven",
+      "slug": "microsoft-java-maven",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-05-01T02:22:52.092212Z",
+      "updated_at": "2021-12-24T09:26:38.618631Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 142520,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "fa4fc701-19dd-4425-94de-8d7a900f38d5",
+      "name": "MML Spark",
+      "slug": "microsoft-mmlspark",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-02-05T05:25:38.00239Z",
+      "updated_at": "2021-12-24T09:26:38.927183Z",
+      "short_description": "Microsoft Machine Learning for Apache Spark",
+      "source": "publisher",
+      "popularity": 227586,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://mmlspark.azureedge.net/icons/mmlspark.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "7f7f7ce8-b170-4708-8df4-615a3dee4344",
+      "name": "Zulu for Azure Headless JRE with Apache Tomcat",
+      "slug": "microsoft-java-tomcat",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2020-12-06T20:22:34.889313Z",
+      "updated_at": "2021-12-24T09:26:38.595694Z",
+      "short_description": "Zulu for Azure build of OpenJDK",
+      "source": "publisher",
+      "popularity": 197457,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "bbdbdc86-d56b-4896-aad7-72cf9a2a72b3",
+      "name": "MMLSpark",
+      "slug": "microsoft-mmlspark-release",
+      "type": "image",
+      "publisher": {
+        "id": "10d88e8d-a819-4efb-99d2-d6c2b4c36692",
+        "name": "Microsoft"
+      },
+      "created_at": "2019-04-11T20:13:24.378858Z",
+      "updated_at": "2021-12-24T09:26:38.902689Z",
+      "short_description": "Microsoft Machine Learning for Apache Spark",
+      "source": "publisher",
+      "popularity": 227586,
+      "categories": [
+        {
+          "name": "base",
+          "label": "Base Images"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://mmlspark.azureedge.net/icons/mmlspark.svg",
+        "small@2x": ""
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "6c055818-1e74-49ef-a043-032b11400733",
+      "name": "DataStax Enterprise Server",
+      "slug": "datastax",
+      "type": "image",
+      "publisher": {
+        "id": "4c754786-8a23-4f47-a805-3fd48024c0bc",
+        "name": "DataStax"
+      },
+      "created_at": "2017-11-14T21:14:59.976794Z",
+      "updated_at": "2020-03-24T23:20:10.098708Z",
+      "short_description": "The best distribution of Apache Cassandra™ with integrated Search, Analytics, and Graph capabilities",
+      "source": "publisher",
+      "popularity": 0,
+      "categories": [
+        {
+          "name": "database",
+          "label": "Databases"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        }
+      ],
+      "logo_url": {
+        "small": "https://d1q6f0aelx0por.cloudfront.net/product-logos/599fe765-5181-47ff-a9c6-bae46d32f633-dse-square.png",
+        "small@2x": "https://d1q6f0aelx0por.cloudfront.net/product-logos/599fe765-5181-47ff-a9c6-bae46d32f633-dse-square.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "3d5f71ad-2cc0-467f-ab6a-351e7adf404e",
+      "name": "tomcat",
+      "slug": "tomcat",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-15T21:32:04.054684Z",
+      "updated_at": "2021-12-23T06:38:17.54859Z",
+      "short_description": "Apache Tomcat is an open source implementation of the Java Servlet and JavaServer Pages technologies",
+      "source": "library",
+      "popularity": 497565242,
+      "categories": [
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-tomcat-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "b338d7f8-3540-4982-be3a-fc6c0b72cb80",
+      "name": "flink",
+      "slug": "flink",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2018-09-21T18:01:43.764072Z",
+      "updated_at": "2021-12-22T13:51:51.95141Z",
+      "short_description": "Apache Flink® is a powerful open-source distributed stream and batch processing framework.",
+      "source": "library",
+      "popularity": 77751240,
+      "categories": [],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-flink-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "afc9cbe9-8325-4609-ad48-cc891f1e0002",
+      "name": "tomee",
+      "slug": "tomee",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-01T01:57:31.639702Z",
+      "updated_at": "2021-12-22T17:14:50.800043Z",
+      "short_description": "Apache TomEE is an all-Apache Java EE certified stack where Apache Tomcat is top dog.",
+      "source": "library",
+      "popularity": 15641850,
+      "categories": [
+        {
+          "name": "application_framework",
+          "label": "Application Frameworks"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-tomee-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "53ad54dd-9bd8-48cd-89b4-fc1d5fdfa6cc",
+      "name": "cassandra",
+      "slug": "cassandra",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-16T19:29:42.643562Z",
+      "updated_at": "2021-11-30T01:33:28.847575Z",
+      "short_description": "Apache Cassandra is an open-source distributed storage system.",
+      "source": "library",
+      "popularity": 160071912,
+      "categories": [
+        {
+          "name": "database",
+          "label": "Databases"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-cassandra-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "54237702-1584-4b5e-8e9e-b7644e787cc6",
+      "name": "storm",
+      "slug": "storm",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2017-04-16T19:08:35.440805Z",
+      "updated_at": "2021-12-22T17:03:33.24248Z",
+      "short_description": "Apache Storm is a free and open source distributed realtime computation system.",
+      "source": "library",
+      "popularity": 7337020,
+      "categories": [
+        {
+          "name": "application_framework",
+          "label": "Application Frameworks"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-storm-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "3574ef8c-86e4-40ed-a705-3a52d9786bde",
+      "name": "httpd",
+      "slug": "httpd",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-08T22:32:53.719817Z",
+      "updated_at": "2021-12-21T07:36:55.627013Z",
+      "short_description": "The Apache HTTP Server Project",
+      "source": "library",
+      "popularity": 3487014775,
+      "categories": [
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "mips64le",
+          "label": "mips64le"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-httpd-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "3e44be96-02cf-427e-bdbe-f108ec3be831",
+      "name": "maven",
+      "slug": "maven",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-01T23:30:59.247133Z",
+      "updated_at": "2021-12-23T04:04:56.149348Z",
+      "short_description": "Apache Maven is a software project management and comprehension tool.",
+      "source": "library",
+      "popularity": 502774177,
+      "categories": [
+        {
+          "name": "tools",
+          "label": "DevOps Tools"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-maven-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "15be0d63-c738-47e1-9cc7-d73d0977734b",
+      "name": "zookeeper",
+      "slug": "zookeeper",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2017-04-16T17:31:57.713365Z",
+      "updated_at": "2021-12-22T18:35:47.916775Z",
+      "short_description": "Apache ZooKeeper is an open-source server which enables highly reliable distributed coordination.",
+      "source": "library",
+      "popularity": 172844817,
+      "categories": [
+        {
+          "name": "application_framework",
+          "label": "Application Frameworks"
+        },
+        {
+          "name": "application_infrastructure",
+          "label": "Application Infrastructure"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        },
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-zookeeper-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "c78955be-8694-44fc-a350-c4f08ae016cd",
+      "name": "groovy",
+      "slug": "groovy",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2017-04-16T17:55:45.535513Z",
+      "updated_at": "2021-12-02T08:00:00.262407Z",
+      "short_description": "Apache Groovy is a multi-faceted language for the Java platform.",
+      "source": "library",
+      "popularity": 68227902,
+      "categories": [
+        {
+          "name": "languages",
+          "label": "Programming Languages"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-groovy-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    },
+    {
+      "id": "f4e3929d-d8bc-491e-860c-310d3f40fff2",
+      "name": "solr",
+      "slug": "solr",
+      "type": "image",
+      "publisher": {
+        "id": "docker",
+        "name": "Docker"
+      },
+      "created_at": "2016-06-01T23:28:19.03857Z",
+      "updated_at": "2021-12-22T17:09:44.44112Z",
+      "short_description": "Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene™.",
+      "source": "library",
+      "popularity": 127584636,
+      "categories": [
+        {
+          "name": "analytics",
+          "label": "Analytics"
+        },
+        {
+          "name": "application_services",
+          "label": "Application Services"
+        }
+      ],
+      "operating_systems": [
+        {
+          "name": "linux",
+          "label": "Linux"
+        }
+      ],
+      "architectures": [
+        {
+          "name": "ppc64le",
+          "label": "PowerPC 64 LE"
+        },
+        {
+          "name": "amd64",
+          "label": "x86-64"
+        },
+        {
+          "name": "arm64",
+          "label": "ARM 64"
+        },
+        {
+          "name": "arm",
+          "label": "ARM"
+        },
+        {
+          "name": "s390x",
+          "label": "IBM Z"
+        },
+        {
+          "name": "386",
+          "label": "386"
+        }
+      ],
+      "logo_url": {
+        "large": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-solr-logo.png"
+      },
+      "certification_status": "not_certified",
+      "star_count": 0,
+      "filter_type": ""
+    }
+  ]
+}
